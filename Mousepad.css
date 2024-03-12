@@ -1,0 +1,326 @@
+.top-3 {
+    margin-top:80px;
+    margin-left: 20px;
+}
+.left-1 {
+    float:left;
+    padding: 5px;
+}
+.right-1 {
+  margin-right: 0%;
+}
+.w3-display-containe{
+  position: relative;
+}
+.black3{
+    color:white;
+    background-color:#FB641B;
+    font-size: 27px;
+}
+
+.padding5{
+      /* padding: 8px 16px; */
+      margin: 42px 7px;
+      /* background: darkorange; */
+      border-radius: 16%;
+  }
+
+
+.dispaly-topleft{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.border1 {
+  background-color:#FB641B;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+ 
+.box{
+  border: 1px solid lightgrey;
+  height: 50px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 23px;
+  background-color: white ;
+  z-index: 1;
+  text-align: center;
+  font-size: 15px;
+  /* word-wrap: break-word; */
+  padding: 11px 12px;
+ 
+}
+.two{
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  position:sticky;
+}
+/* .senter1 {
+  text-align: center;
+}
+.senter2 {
+  border: 1px solid rgba(0,0,0,0.6);
+ opacity: 0.6;
+  font-size: 20px;
+ padding: 15px;
+}
+
+.hr-5 {
+  width: 480px;
+  margin-left: 0px;
+  margin-top: -15px;
+}
+.hr-6 {
+  width: 480px;
+  margin-right: 0px;
+  margin-top: -11px;
+} */
+.form-1 {
+  margin-left: 100px;
+
+}
+.input-1 {
+  width: 80%;
+  font-size:20px;
+}
+.button-1 {
+  background-color: black;
+  color: white;
+  font-size:20px;
+}
+.toggle {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle .icon {
+  transition: transform 0.3s ease;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle.open .icon {
+  transform: rotate(180deg);
+}
+
+.toggle.open .content {
+  display: block;
+}
+.toggle1 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle1 .icon1 {
+  transition: transform 0.3s ease;
+}
+
+.content1 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle1.open .icon1 {
+  transform: rotate(180deg);
+}
+
+.toggle1.open .content1 {
+  display: block;
+}
+.toggle2 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle2 .icon2 {
+  transition: transform 0.3s ease;
+}
+
+.content2 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle2.open .icon2 {
+  transform: rotate(180deg);
+}
+
+.toggle2.open .content2 {
+  display: block;
+}
+.toggle3 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle3 .icon3 {
+  transition: transform 0.3s ease;
+}
+
+.content3 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle3.open .icon3 {
+  transform: rotate(180deg);
+}
+
+.toggle3.icon .content3 {
+  display: block;
+}
+.toggle4 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle4 .icon4 {
+  transition: transform 0.3s ease;
+}
+.toggle4.open .icon4 {
+  transform: rotate(180deg);
+}
+
+
+.content4 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+.toggle5 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle5 .icon5 {
+  transition: transform 0.3s ease;
+}
+
+.content5 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle5.open .icon5 {
+  transform: rotate(180deg);
+}
+
+.toggle5.icon .content5 {
+  display: block;
+}
+
+.toggle6 {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toggle6 .icon6 {
+  transition: transform 0.3s ease;
+}
+
+.content6 {
+  display: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.toggle6.open .icon6 {
+  transform: rotate(180deg);
+}
+
+.toggle6.icon .content6 {
+  display: block;
+}
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width:100%; /* Adjust the size as needed */
+  height: auto;
+  transition: transform 2s ease;
+}
+
+.image-container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
